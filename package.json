@@ -1,0 +1,18 @@
+{
+  "name": "koa2-note",
+  "version": "1.0.0",
+  "description": "kao2 learning note",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "AlanWen",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0"
+  }
+}
