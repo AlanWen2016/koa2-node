@@ -28,7 +28,7 @@ page.get('/404', async ( ctx )=>{
 // 装载所有子路由
 let router = new Router()
 router.use('/', home.routes(), home.allowedMethods())
-router.use('/pp', page.routes(), page.allowedMethods())
+router.use('/page', page.routes(), page.allowedMethods())
 
 // 加载路由中间件
 app.use(router.routes()).use(router.allowedMethods())
